@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat 김예현 KakaoTalk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>LTE</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>05:22</span>
+      </div>
+      <div class="status-bar__column">
+        <span>80%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <div class="alt-header__title">김예현</div>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-chat">
+      <div class="chat__timestamp">📅2023년 05월 22일 월요일 ></div>
+      <div class="message-row">
+        <img src="profile/기본.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">김예현</span>
+          <div class="message__info">
+            <span class="message__bubble">아 운동 개힘들다</span>
+            <span class="message__time">19:54</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="profile/기본.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">김예현</span>
+          <div class="message__info">
+            <span class="message__bubble">ㅜㅜㅜ</span>
+            <span class="message__time">19:54</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row--own">
+        <img src="" />
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">니가 무슨 운동이냐</span>
+            <span class="message__time">20:01</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row--own">
+        <img src="" />
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">엌ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
+            <span class="message__time">20:01</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메시지 작성해!" />
+        <i class="far fa-smile-wink fa-2x"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-2x"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>사용자 화면이 너무 크다... 겔럭시의 위대함!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
