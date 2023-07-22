@@ -40,3 +40,14 @@
 </br>
 
 ## 5. 주요 화면
+
+<div>
+    <img src="profile/chats.jpg" />
+    <img src="profile/index.jpg" />
+    <img src="profile/friends.jpg" />
+    <img src="profile/find.jpg" />
+    <img src="profile/more.jpg" />
+    <img src="profile/setting.jpg" />
+    <img src="profile/notice.jpg" />
+    <img src="profile/사용자.jpg" />
+</div>
